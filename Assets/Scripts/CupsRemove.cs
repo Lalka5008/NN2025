@@ -35,6 +35,7 @@ public class CupsRemove : MonoBehaviour
             {
                 if (c != null)
                 {
+                    
                     var collider = c.GetComponent<Rigidbody>();
                     if (collider != null)
                         collider.isKinematic = false;
